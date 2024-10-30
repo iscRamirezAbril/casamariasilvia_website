@@ -18,7 +18,7 @@
   <body id="home">
     <!-- NAVIGATION -->
     <!-- Navigation Start -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="images/Logos/Casa Maria Silvia Logo.png" alt="Casa María Silvia" width="170">
@@ -54,31 +54,93 @@
 
     <!-- HEADER -->
     <!-- Header Start -->
-    <header class="header py-7 vh-100">
+    <header class="header position-relative py-7 vh-100">
+      <img src="images/Decorative/decorative1.png" class="decoration-image1 position-absolute d-none d-lg-block">
+      <img src="images/Decorative/decorative2.png" class="decoration-image2 position-absolute d-none d-lg-block">
+
       <div class="container">
         <div class="row mb-5 text-center">
           <div class="col-12 text-container">
 
-            <h1 class="display-1 w-75 m-auto fw-bold mt-3">Un refugio en el Valle de Guadalupe</h1>
-            <p class="lead w-75 m-auto mb-4">
+            <h1 class="display-1 w-75 m-auto fw-bold">Un refugio en el Valle de Guadalupe</h1>
+            <p class="lead w-75 m-auto">
               Disfruta de la tranquilidad y el encanto de una casa rodeada de viñedos, donde cada atardecer y cada rincón te invitan a relajarte y vivir la experiencia única del Valle.
             </p>
 
-            <a href="#reservation" class="btn btn-primary me-3">Reservar</a>
-            <a href="#about" class="btn btn-outline-primary">Conocer más</a>
+            <div class="mt-3">
+              <a href="#reservation" class="btn btn-primary me-3">Reservar</a>
+              <a href="#about" class="btn btn-outline-primary">Conocer más</a>
+            </div>
           </div>
-        </div>
 
         <!-- Image -->
-        <div class="row mb-5 text-center">
+        <div class="row text-center mt-4">
           <div class="col-12">
             <img class="header-img" src="images/Outside/outside03.jpg" alt="Header Image">
           </div>
         <!-- Image -->
-
+        </div>
       </div>
     </header>
     <!-- Header End -->
+
+    <!-- ABOUT -->
+    <!-- About Section Start -->
+    <section id="about" class="about position-relative py-6">
+      <img src="images/Decorative/decorative4.png" class="decoration-image3 position-absolute d-none d-xxl-block">
+      <img src="images/Decorative/dots.png" class="decoration-dots position-absolute d-none d-lg-block">
+
+      <div class="container mb-4">
+        
+        <div class="text-center">
+          <h4 class="display-4 pb-3 fw-bold">¿Quiénes somos?</h4>
+        </div>
+
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-lg-6">
+
+            <img src="images/Outside/outside01.jpg" class="about-img-1 img-fluid rounded-4 mb-4">
+
+            <h1 class="fw-bold text-primary">Sobre nosotros</h1>
+            <p>
+              En <span class="fw-bold">Casa María Silvia</span>, ofrecemos mucho más que una estancia: brindamos un espacio único en el corazón del Valle de Guadalupe para que vivas momentos inolvidables. Nuestra casa puede albergar cómodamente a familias, parejas y grupos de amigos.
+            </p>
+
+          </div>
+          <!-- Column 1 -->
+
+          <!-- Column 2 -->
+          <div class="col-lg-6">
+            <img src="images/Outside/outside06.webp" class="about-img-2 img-fluid rounded-4 d-none d-lg-block">
+          </div>
+          <!-- Column 2 -->
+        </div>
+
+      </div>
+
+      <div class="container mt-1">
+        <div class="row">
+          <!-- Column 2 -->
+          <div class="col-lg-6">
+            <img src="images/Inside/inside02.jpg" class="about-img-3 img-fluid rounded-4 d-none d-lg-block">
+          </div>
+          <!-- Column 2 -->
+
+          <!-- Column 1 -->
+          <div class="col-lg-6">
+            <h1 class="fw-bold text-primary">Detalles</h1>
+            <p>
+              Ofrecemos una cocina completamente equipada, ideal para preparar desde desayunos tranquilos hasta cenas especiales. En el exterior, te espera una refrescante alberca y un jacuzzi privado, perfectos para disfrutar tanto del sol durante el día como de las noches estrelladas. Ofrecemos también cuatro acogedoras recámaras –equipadas con tres camas Queen size y una cama King Size – para que las familias puedan descansar cómodamente.            
+            </p>
+
+          </div>
+          <!-- Column 1 -->
+        </div>
+      </div>
+
+    </section>
+    <!-- About Section End -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
