@@ -4,34 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Bootstrap 5 Simple Starter</title>
+    <link rel="icon" href="images/Logos/Favicon.png"/>
+    <title>Casa María Silvia</title>
   </head>
-  <body>
-    <div
-      class="container d-flex flex-column align-items-center justify-content-center text-center vh-100 w-50"
-    >
-      <h1 class="text-primary">
-        <i class="fa fa-star"></i> Bootstrap 5 Simple Starter
-      </h1>
-      <p>
-        This is a boilerplate for creating and customizing Bootstrap 5 projects.
-      </p>
-      <p class="bg-light p-2">
-        Look at
-        <strong>"node_modules/bootstrap/dist/scss/_variables.scss"</strong> to
-        see the variables that you can overwrite in your
-        <strong>"scss/bootstrap.scss"</strong> file. For any custom styles, add
-        them to the "scss/styles.scss" file. Do not edit the CSS files directly.
-      </p>
 
-      <p>
-        Build or watch your Sass files with the following commands:
-        <pre>npm run sass:build</pre>
-        <pre>npm run sass:watch</pre>
-      </p>
-    </div>
+  <body id="home">
+    <!-- NAVIGATION -->
+    <!-- Navigation Start -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/Logos/Casa Maria Silvia Logo.png" alt="Casa María Silvia" width="170">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Opiniones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservaciones</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- HEADER -->
+    <!-- Header Start -->
+    <header class="header py-7 vh-100">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+
+            <h1 class="display-1 w-75 m-auto fw-bold mt-3">Un refugio en el Valle de Guadalupe</h1>
+            <p class="lead w-75 m-auto mb-4">
+              Disfruta de la tranquilidad y el encanto de una casa rodeada de viñedos, donde cada atardecer y cada rincón te invitan a relajarte y vivir la experiencia única del Valle.
+            </p>
+
+            <a href="#reservation" class="btn btn-primary me-3">Reservar</a>
+            <a href="#about" class="btn btn-outline-primary">Conocer más</a>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="row mb-5 text-center">
+          <div class="col-12">
+            <img class="header-img" src="images/Outside/outside03.jpg" alt="Header Image">
+          </div>
+        <!-- Image -->
+
+      </div>
+    </header>
+    <!-- Header End -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
