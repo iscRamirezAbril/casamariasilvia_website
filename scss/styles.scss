@@ -48,7 +48,6 @@
     left: 10px;
     top: 30px;
     width: 500px;
-    opacity: 0.3;
 }
 
 .about .decoration-image3 {
@@ -61,8 +60,28 @@
 .about .icon {
     width: 32px;
 }
-
 // |==========| About CSS |==========| //
+
+// |==========| Photo Gallery CSS |==========| //
+.gallery-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.photos .decoration-dots {
+    right: 50px;
+    bottom: 20px;
+    width: 400px;
+}
+
+.photos .decoration-image4 {
+    left: 50px;
+    top: 20px;
+    width: 250px;
+    transform: rotate(10.666deg);
+}
+// |==========| Photo Gallery CSS |==========| //
 
 @media(max-width: 992px) {
     // |=====| Navbar CSS |=====| //
@@ -88,4 +107,10 @@
         width: 300px;
     }
     // |=====| About CSS |=====| //
+}
+
+@media (max-width: 768px) {
+    .gallery-image {
+      margin-bottom: 15px;
+    }
 }
