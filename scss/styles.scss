@@ -1,3 +1,9 @@
+// |==========| Global CSS |==========| //
+.icon {
+    width: 32px;
+}
+// |==========| Global CSS |==========| //
+
 // |==========| Navbar CSS |==========| //
 .navbar {
     z-index: 5;
@@ -57,10 +63,6 @@
     width: 300px;
     transform: rotate(17.666deg);
 }
-
-.about .icon {
-    width: 32px;
-}
 // |==========| About CSS |==========| //
 
 // |==========| Photo Gallery CSS |==========| //
@@ -101,6 +103,24 @@
     height: 100%;
 }
 // |==========| Reviews CSS |==========| //
+
+// |==========| Reservartion CSS |==========| //
+.airbnb-btn {
+    background-color: #FF385C;
+    color: white;
+}
+
+.airbnb-btn:hover {
+    background-color: #D62F4D;
+    color: white;
+}
+// |==========| Reservartion CSS |==========| //
+
+// |==========| Footer CSS |==========| //
+.footer .footerLogo {
+    filter: brightness(1.5);
+}
+// |==========| Footer CSS |==========| //
 
 @media(max-width: 992px) {
     // |=====| Navbar CSS |=====| //
