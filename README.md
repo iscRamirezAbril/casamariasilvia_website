@@ -1,6 +1,6 @@
 # Casa María Silvia Landing Page
-> Bootstrap Website for a logistic company that offers efficient, secure and customized logistics solutions
-> Live demo [_here_]().
+> Bootstrap Landing Page for a vacation house rental, where you will find details about the house and reservations info.
+> Live demo [_here_](https://casamariasilvia.vercel.app/).
 
 
 ## Table of Contents
@@ -15,7 +15,7 @@
 
 
 ## General Information
-Bootstrap Website for a logistic company that offers efficient, secure and customized logistics solutions for companies of all sizes. It is a very light business theme with a clean design.
+Bootstrap Landing Page for a vacation house rental, where you will find details about the house and reservations info.
 
 
 ## Technologies Used
