@@ -105,6 +105,23 @@
 // |==========| Reviews CSS |==========| //
 
 // |==========| Reservartion CSS |==========| //
+.reservation .reservation-container {
+    z-index: 3;
+}
+
+.reservation .decoration-image6 {
+    width: 224px;
+    right: 31px;
+    bottom: 50px;
+}
+
+.reservation .decoration-dots {
+    z-index: 1;
+    left: -150px;
+    top: 20px;
+    width: 400px;
+}
+
 .airbnb-btn {
     background-color: #FF385C;
     color: white;
